@@ -1,0 +1,6 @@
+provide a config directory with your
+server.properties
+permissions.json
+whitelist.json
+and a worlds directory where you keep your world. 
+e.g. if your server.properties has level-name=world1, have worlds/world1)

@@ -1,0 +1,10 @@
+version: '3'
+services:
+  minecraft:
+    build: ./
+    ports:
+      - "19132:19132/udp"
+      - "19133:19133/udp"
+    volumes:
+      - ./config:/opt/minecraft/config
+      - ./worlds:/opt/minecraft/bedrock/worlds
